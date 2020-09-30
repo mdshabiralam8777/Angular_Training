@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="CalCSS.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>
+      Simple Calculator
+    </title>
+    <script type="text/javascript">
+      function cal() {
+
+        var n1 = parseFloat(document.getElementById("n1").value)
+        var n2 = parseFloat(document.getElementById("n2").value)
+
+        var op = document.getElementById("opr").value
+
+        if (op === "+")  document.getElementById('result').value = n1 + n2;
+        if (op === "-")  document.getElementById('result').value = n1 - n2;
+        if (op === "x")  document.getElementById('result').value = n1 * n2;
+        if (op === "/")  document.getElementById('result').value = n1 / n2;
+        if (op === "%")  document.getElementById('result').value = n1 % n2;
+      }
+
+    </script>
+</head>
+
+  <body class=" py-5 container text-center bg-light">
+    <h1 class="text-success box-sizing-border-box py-4">
+      <u>Simple Calculator</u>
+    </h1>
+    <span class="text-success">First Number:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="rounded" type="text" id="n1" maxlength="7" value="" placeholder="First No ">
+    <br><br>
+    <span class="text-success">Second Number:</span>&nbsp; <input class="rounded" type="text" id="n2" maxlength="7" value="" placeholder="Second No"><br><br>
+    <select class="rounded" id="opr">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="x">x</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="rounded" type="Button" value="=" onclick="cal();">
+    <br>
+    <br>
+    <span class="text-success font-weight-bold">Answer:</span> <input class="rounded" type="text" id="result"><br><br>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>
