@@ -1,0 +1,114 @@
+html{
+    background-color: #061b70;
+    font-family :Arial, sans-serif;
+    font-weight: 700;
+}
+
+#toggle{
+    background-color: #061b70;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#toggle svg{
+    width: 50px;
+    height: 50px;
+}
+
+.button-container{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-container .card{
+    background-color: #fff;
+    width: 20%;
+    padding: 10px;
+    flex-basis: 30%;
+    margin-top: 20px;
+}
+
+.text-card{
+    margin-top:20px;
+}
+
+.card p{
+   margin-left: 5%;
+   padding: 0;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: 550;
+}
+
+.card-container .card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container input{
+    padding: 10px;
+    width: 80%;
+}
+
+.top-row{
+    display: flex;
+}
+
+.custom-del{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    max-height: 50px;
+}
+
+.custom-img{
+    max-height: 50px;
+}
+
+.custom-img1{
+    max-height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+input{
+    font-weight: 700;
+}
+
+table{
+    font-weight: 700;
+}
+
+.list-container td{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.list-container td input{
+    height: 25px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.list-container table{
+    width: 100%;
+}
+
+td{
+    justify-content: center;
+    align-items: center;
+}
