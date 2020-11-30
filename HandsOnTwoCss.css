@@ -1,0 +1,132 @@
+.carousel-style{
+    background-image: url("Images/hp-chaos-to-catalyst-desk.jpg");
+ }
+ .clr{
+     color: black;
+     font-size: 20px;
+ }
+
+.clr:hover{
+    background-color: rgb(32, 32, 168);
+    color: white !important;
+}
+ .text-blue{
+     color:#0033a0 ;
+     font-weight: 600;
+     font-size:27px;
+ }
+
+ .line-mod{
+     line-height: 1.5em;
+ }
+
+ .text-responsive{
+        font-size: calc(100% + 3vw + 2vh);
+ }
+
+.text-responsive-small{
+    font-size: calc(100% + .05vw + .5vh);
+}
+.bg-blue{
+    background-color: darkblue;
+}
+.text-font{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bg-color{
+    background-color: #DCDCDC;
+}
+.changes{
+    width: 100%;
+    padding: 3px 3px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.changes:hover{
+    border-bottom: 2px solid rgb(9, 43, 240);
+}
+.form-label-top {
+    margin: 0px !important;
+}
+.container-img {
+    position: relative;
+    text-align: center;
+
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  .bottom-left:hover{
+    color: green;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    margin-left: 20px;
+  }
+  .middle-p{
+      position: absolute;
+      top: 100px;
+      left: 10px;
+      font-size: 20px;
+      text-align: left;
+      text-align-last:left;
+      line-height: 1
+  }
+
+  .latest-thinking-bck-img1{
+    background-image: url("https://www.cognizant.com/content/dam/Cognizant_Dotcom/whitepaper_thumbnails/continuous-testing-is-key-for-enterprises-to-adopt-ai-platforms-codex5832_TL.jpg");
+}
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bottom-left-a {
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    text-align: left;
+    text-align-last:left;
+    font-size:20px;
+    line-height: 1;
+  }
+  .clr-1:hover{
+    background-color: rgb(151, 255, 151);
+    color: white;
+}
+.hvr-green:hover{
+    color: rgb(55, 252, 6) !important;
+}
+.links-text-color{
+    color: black;
+}
+.links-text-color:hover{
+    color: rgb(55, 252, 6);
+}
